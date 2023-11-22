@@ -1,24 +1,26 @@
+
 header{
     background-color: #000000;
-    color: #7ED957;
+    color: #b6099c;
     text-align: center;
 
 }
 nav{
-    background-color: #00BF63;
+    background-color: #b6099c;
     color: black;
     text-align: center;
-
 }
+
 main{
-    background-color: #c8fde2;
+    background-color: #f1fff8;
     color: black;
-    height: 450px;
+    height: 800px;
 
 }
 footer{
     background-color: #000000;
-    color: #7ED957;
+    color: #b6099c;
+    text-align: center;
 
 }
 *{
@@ -28,4 +30,8 @@ header,nav,main,footer{
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
+}
+a:link, a:visited{
+    color:#000000;
+    text-decoration: none;
 }
